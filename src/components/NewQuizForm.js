@@ -6,7 +6,7 @@ import ROUTES from "../app/routes";
 import {selectTopics} from '../features/topics/topicSlice';
 import { addQuizThunk } from '../features/quizzes/quizSlice';
 import {addCard} from '../features/cards/cardSlices';
-import {selectCard} from '../features/cards/cardSlices';
+// import {selectCard} from '../features/cards/cardSlices';
 
 
 export default function NewQuizForm() {
@@ -44,8 +44,8 @@ export default function NewQuizForm() {
       topicId: topicId,
       cardIds: cardIds
     }));
-    console.log(cardIds + 'sighhhhh')
-
+    // console.log(cardIds + 'sighhhhh')
+    console.log(cards);
     history.push(ROUTES.quizzesRoute());
   };
 

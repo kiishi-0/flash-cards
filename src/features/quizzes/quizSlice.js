@@ -11,7 +11,7 @@ const quizSlice = createSlice({
                 id: action.payload.id,
                 name: action.payload.name,
                 topicId: action.payload.topicId,
-                cardsIds: action.payload.cardsIds
+                cardIds: action.payload.cardIds
             }
         }
     }
